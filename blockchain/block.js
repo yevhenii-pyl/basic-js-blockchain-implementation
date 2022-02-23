@@ -1,5 +1,5 @@
 const hexToBinary = require("hex-to-binary");
-const cryptoHash = require("../utils/crypto-hash");
+const { cryptoHash } = require("../utils");
 const { GENESIS_DATA, MINE_RATE } = require("../config");
 
 class Block {
